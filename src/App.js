@@ -18,8 +18,7 @@ function App() {
       alert("You have reached the limit");
       return;
     }
-    count++;
-    setCount(count);
+    setCount(count + 1);
   }
 
   function decreaseCount() {
@@ -27,8 +26,7 @@ function App() {
       alert("Count cannot go below 0");
       return;
     }
-    count--;
-    setCount(count);
+    setCount(count - 1);
   }
 
   return (
